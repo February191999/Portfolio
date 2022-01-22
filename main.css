@@ -1,0 +1,132 @@
+body, html{
+    height:100%;
+    margin:0;
+}
+body{
+    background-color:black
+}
+
+nav li{
+    display:inline;
+    margin:20px;
+}
+
+nav ul{
+    background-color: black;
+    margin:0px;
+    list-style-type: none;
+    width: 100%;
+    padding:20px;
+}
+
+nav{
+    display:block;
+    color:white;
+}
+
+nav a{
+    color:darkgrey;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:white;
+}
+
+.hero-image{
+    background-image: linear-gradient(rgba(1, 19, 80, 0.575),rgba(0, 0, 0, 0.575)), url("../images/Dancing_Fireflies.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position:relative;
+}
+
+.hero-text{
+    float:left;
+    width: 75%;
+    text-align:center;
+    transform: translate(18%)
+}
+
+.hero-text h1, p{
+    color: white;
+}
+
+#side{
+    float:right;
+}
+
+#profile-image{
+    width:100px;
+    border-radius: 50%;
+    border:5px solid darkgrey;
+}
+
+#profile{
+    text-align:center;
+}
+
+.side-articles ul{
+    list-style-type: none;
+    padding-left: 25px;
+}
+
+#profile h2{
+    display:inline;
+    padding-left: 30px;
+}
+#profile-details{
+    margin-right: 30px;
+    text-align:center;
+}
+
+.side-articles{
+    padding:10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(128,128,128,.9), rgba(211,211,211,.9));
+    text-align: center;
+}
+
+.side-articles h1{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+form{
+    margin-top: 10px
+}
+
+textarea, input{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+footer{
+    width:100%;
+    background-color: black;
+    height: 5vh;
+    margin-top: 0px;
+}
+
+footer div{
+    text-align: center;
+    color: white;
+}
+
+main{
+    overflow:auto;
+}
+
+footer hr{
+    margin-top:0px;
+    height:12px;
+    border:0px;
+    box-shadow:inset 0px 12px 12px -12px white;
+}
+
+button{
+    border-radius: 5px;
+    border: 1px solid black
+}

@@ -1,0 +1,89 @@
+body, html{
+    height:100%;
+    margin:0px
+}
+body{
+    background-color: black;
+}
+
+nav li{
+    display:inline;
+    margin:20px;
+}
+
+nav ul{
+    background-color: black;
+    margin: 0px;
+    list-style-type:none;
+    width: 100%;
+    padding: 20px
+}
+
+nav{
+    display:block;
+    color: white;
+}
+ nav a{
+    color: darkgrey;
+    text-decoration: none;
+ }
+
+ nav a:hover{
+     color:white;
+ }
+
+ .main-articles h1{
+    margin-top:0px;
+    margin-bottom: 15px;
+    text-align: center;
+    color:white;
+ }
+
+.main-articles{
+    background-image: linear-gradient(rgba(0,0,0,.6), rgb(98, 0, 128,.75)), url("../images/Moon_Glow.jpg");
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    position:relative;
+}
+
+.main-articles h2{
+    text-align: center;
+    color: white;
+    margin-top:15px;
+    margin-bottom:15px
+}
+
+.main-articles p{
+    border-radius: 15px;
+    color: white;
+    padding:20px;
+    padding-bottom:30px;
+    margin-bottom:30px;
+    text-align: center;
+}
+
+ footer{
+    margin-top:0;
+    width:100%;
+    background-color: black;
+    height: 12vh;
+}
+
+footer div{
+    text-align: center;
+    color: white;
+}
+
+main{
+    overflow:auto;
+}
+
+footer hr{
+    margin-top: 0px;
+    height:12px;
+    border:0px;
+    box-shadow:inset 0px 12px 12px -12px white;
+}

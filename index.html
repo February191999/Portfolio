@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rye's Portfolio</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="http://127.0.0.1:5500/about_me.html">About Me</a></li>
+            <li><a href="http://127.0.0.1:5500/hobbies.html">My Hobbies</a></li>
+            <li><a href="http://127.0.0.1:5500/why_become_a_web_developer.html">Why Become A Web Developer?</a></li>
+        </ul>
+    </nav>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:75px;">Rye</h1>
+            <p style="font-size: 20px;">Python Programmer</p>
+        </div>
+        <div id="side">
+            <article class="side-articles" id="profile">
+                <img id="profile-image" src="images/Me (1).jpg">
+                <div id="profile-details">
+                    <h2>Rye Hsu</h2>
+                    <ul>
+                        <li>5119 Williams Fork Trail</li>
+                        <li>Boulder, CO 80301</li>
+                        <li>(720) 793-6371</li>
+                        <li><a href="mailto:rye.t.hsu@gmail.com">rye.t.hsu@gmail.com</a></li>
+                    </ul>
+                </div>
+            </article>
+            <article class="side-articles">
+                <h1>Contact Me</h1>
+                <strong><small>Please contact me with questions</small></strong>
+                <br />
+                <form action="mailto:rye.t.hsu@gmail.com" method="POST">
+                    <label for="name"><strong>Name</strong></label>
+                    <br />
+                    <Input type="text" id="name" placeholder="Your Name">
+                    <br />
+                    <label for="body"><strong>Message</strong></label>
+                    <br />
+                    <textarea id="body" placeholder="Your Message" rows="5"></textarea>
+                    <br />            
+                    <button type="submit">Submit</button>
+            </article>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <hr>
+        <div>
+            &copy Rye Hsu 2022
+        </div>
+    </footer>
+</body>
+</html>
